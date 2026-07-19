@@ -60,18 +60,6 @@ ul {
 .bi-search {
 		font-size: 20px;
 	}
-/* Footer */
-
-footer {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	color: #fff;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
-}
 
 /* Sidebar */
 .sidebar {
@@ -133,12 +121,39 @@ footer {
 	height: 20px;
 	width: 20px;
 }
+
+/* Footer */
+
+footer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	background-color: black;
+}
+
+.footer-icons {
+	display: flex;
+	justify-content: space-around;
+	gap: 30px;
+	font-size: 25px;
+	padding: 30px;
+
+	/*span {
+		display: block;
+		text-align: center;
+		font-size: 15px;
+	}*/
+}
+	/* Inserisci qui sotto 
+	le tue regole, se necessario. */
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
 .debug footer {
-	min-height: 100px;
+	min-height: 65px;
 	border: 2px dashed #fff;
 }
 
