@@ -24,8 +24,21 @@ video {
 	position: relative;
 }
 
-.reel-header {
+a {
+	text-decoration: none;
+	color: rgba(225, 225, 225, 0.3);
+}
+
+ul {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	text-decoration: none;
+}
+.reel-header > div {
+	display: flex;
 	position: absolute;
+	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	top: 0;
@@ -34,6 +47,17 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+/*Icon Styles*/
+.bi-play-btn {
+	font-size: 30px;
+	color: white;
+}
+
+.bi-search {
+	font-size: 20px;
+	color: white;
 }
 
 /* Footer */
