@@ -75,15 +75,61 @@ footer {
 
 /* Sidebar */
 .sidebar {
-	padding: 0 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	align-items: flex-end;
+	gap: 35px;
+	padding: 0 15px;
 	position: absolute;
 	right: 0;
 	top: 40%;
 
+	.bi-heart-fill,
+	.bi-chat-dots-fill,
+	.bi-bookmark-fill,
+	.bi-share-fill {
+		color: white;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	span {
+		display: block;
+		text-align: center;
+		font-size: 15px;
+	}
+	
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
 
+/* Boolean Logo*/
+.boolean-profile {
+	position: relative;
+	display: inline-block;
+ 	} 
+	
+.boolean-profile img {
+	/*position: relative;*/
+	margin-right: -6px;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	border: solid white 1.5px;
+}
+
+.boolean-profile::after {
+	content: '+';
+	position: absolute;
+	color: white;
+	background: red;
+	border-radius: 50%;
+	bottom: 0;
+	right: 0;
+	height: 3px;
+	width: 3px;
+}
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
