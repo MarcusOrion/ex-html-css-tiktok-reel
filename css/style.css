@@ -50,16 +50,16 @@ ul {
 }
 
 /*Icon Styles*/
-.bi-play-btn {
-	font-size: 30px;
+.bi-play-btn,
+.bi-search {
+	font-size: 25px;
 	color: white;
+	margin: 20px;
 }
 
 .bi-search {
-	font-size: 20px;
-	color: white;
-}
-
+		font-size: 20px;
+	}
 /* Footer */
 
 footer {
