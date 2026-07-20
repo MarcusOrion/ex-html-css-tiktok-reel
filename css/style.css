@@ -26,7 +26,8 @@ video {
 
 a {
 	text-decoration: none;
-	color: rgba(225, 225, 225, 0.3);
+	color: rgba(136, 136, 136, 0.3);
+	font-weight: 585;
 }
 
 ul {
@@ -35,6 +36,13 @@ ul {
 	list-style: none;
 	text-decoration: none;
 }
+
+ul::second-child {
+	color: red;
+	background-color: red;
+	border-radius: 50%;
+}
+
 .reel-header > div {
 	display: flex;
 	position: absolute;
@@ -47,6 +55,31 @@ ul {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+.reel-header nav ul li:nth-child(2) a::after {
+    content: "";
+    position: absolute;
+    top: 18px;
+  	right: 216px;
+  	width: 8px;
+  	height: 8px;
+  	background: rgba(255, 0, 0, 0.1);
+  	border-radius: 50%;
+}
+
+.reel-header nav ul li:nth-child(3) a {
+	color: white;
+
+	/*&::after {
+		content: '_';
+		position: absolute;
+		color: white;
+		top: -4px;
+    	right: -8px;
+    	width: 8px;
+    	height: 8px;
+	}*/
 }
 
 /*Icon Styles*/
