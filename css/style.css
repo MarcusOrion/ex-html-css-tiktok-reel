@@ -137,14 +137,30 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	gap: 30px;
+	text-align: center;
 	font-size: 25px;
-	padding: 30px;
+	padding: 18px;
+	margin-left: 5px;
 
-	/*span {
+	span {
 		display: block;
 		text-align: center;
-		font-size: 15px;
-	}*/
+		font-size: 12px;
+		font-style: normal;
+		color: grey;
+	}
+}
+
+.bi-house-fill {
+	color: white;
+
+	span {
+		color: white;
+	}
+}
+
+.bi-plus-square {
+	color: white;
 }
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
