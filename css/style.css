@@ -149,6 +149,20 @@ footer {
 		font-style: normal;
 		color: grey;
 	}
+
+	.bi-chat-square::after {
+		content: '19';
+		font-size: 12px;
+		text-align: center;
+		position: absolute;
+		color: white;
+		background-color: red;
+		border-radius: 4px;
+		min-width: 18px;
+		height: 16px;
+		top: 15px;
+		right: 148px;
+	}
 }
 
 .bi-house-fill {
