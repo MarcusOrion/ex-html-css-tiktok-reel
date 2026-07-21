@@ -68,12 +68,12 @@ ul::second-child {
   	border-radius: 50%;
 }
 
-.reel-header nav ul li:nth-child(3) a {
+.reel-header nav ul li:last-child a {
 	color: white;
 }
 
 
-.reel-header nav ul li:nth-child(3) a::after {
+.reel-header nav ul li:last-child a::after {
     content: "";
     position: absolute;
     left: 63%;
@@ -212,24 +212,3 @@ footer {
 }
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 65px;
-	border: 2px dashed #fff;
-}
-
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
-
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
-
-/* --------------------- */
