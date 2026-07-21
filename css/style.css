@@ -70,18 +70,19 @@ ul::second-child {
 
 .reel-header nav ul li:nth-child(3) a {
 	color: white;
-
-	/*&::after {
-		content: '_';
-		position: absolute;
-		color: white;
-		top: -4px;
-    	right: -8px;
-    	width: 8px;
-    	height: 8px;
-	}*/
 }
 
+
+.reel-header nav ul li:nth-child(3) a::after {
+    content: "";
+    position: absolute;
+    left: 63%;
+    bottom: 21px;
+    transform: translateX(-50%);
+    width: 25px;      
+    height: 3px;
+	background-color: white;
+}
 /*Icon Styles*/
 .bi-play-btn,
 .bi-search {
